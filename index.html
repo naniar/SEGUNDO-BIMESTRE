@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PREGUNTAS</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+   <header>
+    <h1> NCT QUIZZ </h1>
+    <p> NCT DREAM (version) </p>
+   </header>
+
+   <div class="container">
+    <section id="p0">
+        <h3> 1- ¿ FECHA DE DEBUT ? </h3>
+        <label>
+            <input type="radio" value="1" name="p0" onclick="respuestas(0,this)"> 26 de agosto 2016
+        </label>
+        <label>
+            <input type="radio" value="2" name="p0" onclick="respuestas(0,this)"> 26 de ctubre 2016
+        </label>
+        <label>
+            <input type="radio" value="3" name="p0" onclick="respuestas(0,this)"> 26 de septiembre 2017
+        </label>
+    </section>
+    <section id="p1"></section>
+        <h3> 2- ¿ NOMBRE DEL LIDER ? </h3>
+        <label>
+            <input type="radio" value="1" name="p0" onclick="respuestas(1,this)"> Mark Lee
+        </label>
+        <label>
+            <input type="radio" value="2" name="p0" onclick="respuestas(1,this)"> Lee Jeno
+        </label>
+        <label>
+            <input type="radio" value="3" name="p0" onclick="respuestas(1,this)"> Lee Donghuyck
+        </label>
+    </section>
+    <section id="p2"></section>
+        <h3> 3- ¿ MAKNAE DEL GRUPO?  </h3>
+        <label>
+            <input type="radio" value="1" name="p0" onclick="respuestas(2,this)"> Na Jaemin
+        </label>
+        <label>
+            <input type="radio" value="2" name="p0" onclick="respuestas(2,this)"> Huang Renjun
+        </label>
+        <label>
+            <input type="radio" value="3" name="p0" onclick="respuestas(2,this)"> Park Jisung
+        </label>
+    </section>
+    <section id="p0">
+        <h3> 4- ¿ NUEVA CANCION ? </h3>
+        <label>
+            <input type="radio" value="1" name="p0" onclick="respuestas(3,this)"> BROKEN MELODIES
+        </label>
+        <label>
+            <input type="radio" value="2" name="p0" onclick="respuestas(3,this)"> ISJT
+        </label>
+        <label>
+            <input type="radio" value="3" name="p0" onclick="respuestas(3,this)"> BOOM
+        </label>
+    </section>
+    <button onclick="corregir()"> CORREGIR </button>
+    <h2> ACIERTOS : <span id="resultado"></span></h2>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
